@@ -1,0 +1,31 @@
+/* Empty. Add your own CSS if you like */
+.imgBox{
+	height: 320px;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+.imgContent{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+}
+.imgContent img{
+	border-radius: 50%;
+}
+.icon{
+	font-size:32px;
+  	padding:0 20px 0 2px;
+}
+
+.item-thumbnail-left img{
+  border-radius:50%;
+}
+#loginBtn{
+	border-radius:30px;
+}
+
