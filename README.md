@@ -13,3 +13,5 @@
 * 使用```ionic platform add android```添加安卓平台
 * 使用```ionic build android```编译生成apk安装包
 
+## 注意
+* 在`\platforms\android\build\outputs`中已经有一个打包好的安卓安装程序包可以直接拷贝到手机上安装
