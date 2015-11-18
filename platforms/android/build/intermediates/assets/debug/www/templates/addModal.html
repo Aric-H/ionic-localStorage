@@ -1,0 +1,40 @@
+	<ion-modal-view>
+    <ion-header-bar class="bar-positive" align-title="center">
+      <h1 class="title">添加对象页面</h1>
+      <a class="button" ng-click="closeModal();">关闭</a>
+    </ion-header-bar>
+    <ion-content>
+		<ion-list>
+			<ion-item class="item-divider">
+				<b>基本信息</b>
+			</ion-item>
+			<ion-item class="item-input">
+				<span class="input-label">姓名</span>
+				<input type="text" placeholder="请输入姓名" ng-model="temp.name">
+			</ion-item>
+			<ion-item class="item-input">
+				<span class="input-label">年龄</span>
+				<input type="text" placeholder="请输入年龄" ng-model="temp.age">
+			</ion-item>
+			<ion-item class="item-divider">
+				<b>选择性别</b>
+			</ion-item>
+			<ion-radio ng-model="temp.sex" value="man">
+				男
+			</ion-radio>
+			<ion-radio ng-model="temp.sex" value="woman">
+				女
+			</ion-radio>
+			<ion-item class="item-divider">
+				<b>选择兴趣</b>
+			</ion-item>
+			<ion-checkbox ng-model="temp.interest.basketball">篮球</ion-checkbox>
+			<ion-checkbox ng-model="temp.interest.badminton">羽毛球</ion-checkbox>
+			<ion-checkbox ng-model="temp.interest.soccer">足球</ion-checkbox>
+			<ion-checkbox ng-model="temp.interest.swim">游泳</ion-checkbox>
+		</ion-list>
+		<button class="button button-positive button-block" ng-click="add_item();">
+			提交
+		</button>
+    </ion-content>
+  </ion-modal-view>

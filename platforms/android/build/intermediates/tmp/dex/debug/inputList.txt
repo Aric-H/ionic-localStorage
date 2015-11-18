@@ -1,0 +1,2 @@
+E:\HJ\PhoneGapApp\ionic-localStorage\platforms\android\build\intermediates\classes\debug
+E:\HJ\PhoneGapApp\ionic-localStorage\platforms\android\build\intermediates\pre-dexed\debug\classes-06d48881f42b6f40287172dd57eaebf0f07250ac.jar
